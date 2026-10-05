@@ -53,7 +53,7 @@ jobs:
 
       - name: Build site with Hugo
         run: |
-          npx hugo \
+          hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
