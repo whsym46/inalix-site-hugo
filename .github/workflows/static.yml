@@ -22,7 +22,7 @@ jobs:
       NODE_VERSION: "20.0.0"
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
@@ -40,8 +40,10 @@ jobs:
           sudo mv hugo /usr/local/bin/
           rm hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
 
-      - name: Install Dependencies
-        run: npm install
+      - name: Install Dependencies & PostCSS
+        run: |
+          npm install
+          npm install -g postcss-cli autoprefixer
 
       - name: Build Hugo Site
         run: npm run build
