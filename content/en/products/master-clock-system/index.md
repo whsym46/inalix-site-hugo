@@ -1,7 +1,8 @@
 ---
-title: Master Clock System
+title: Master Clock System (X-MC)
+slug: ''
 image: images/X-MC.webp
-meta_title: Master Clock System | INALIX
+meta_title: Master Clock System (X-MC) | INALIX
 description: Master Clock System
 date: 2022-04-04
 categories: []

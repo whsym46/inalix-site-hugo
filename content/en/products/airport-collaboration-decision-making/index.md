@@ -1,8 +1,8 @@
 ---
-title: Airport Collaboration Decision Making
+title: Airport Collaboration Decision Making (X-ACDM)
 slug: ''
 image: images/X-ACDM.webp
-meta_title: Airport Collaboration Decision Making | INALIX
+meta_title: Airport Collaboration Decision Making (X-ACDM) | INALIX
 description: Inalix Flight Information Display System is that can be used to manage, control and automate the flow of up to date information to the general public, airport tenants, airport management and airport operational staff throughout the Airport Terminal.
 date: 2022-04-04
 categories: []

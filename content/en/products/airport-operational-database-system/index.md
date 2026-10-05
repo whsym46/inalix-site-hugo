@@ -1,8 +1,8 @@
 ---
-title: Airport Operational Database System
+title: Airport Operational Database System (X-AODB)
 slug: ''
 image: images/X-AODB.webp
-meta_title: Airport Operational Database System | INALIX
+meta_title: Airport Operational Database System (X-AODB) | INALIX
 description: Airport Operational Database System
 date: 2022-04-04
 categories: []

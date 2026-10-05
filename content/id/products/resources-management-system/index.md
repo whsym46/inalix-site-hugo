@@ -1,8 +1,8 @@
 ---
-title: Resources Management System
+title: Resources Management System (RMS)
 slug: ''
 image: images/X-RMS.webp
-meta_title: Resources Management System | INALIX
+meta_title: Resources Management System (RMS) | INALIX
 description: Resources Management System
 date: 2022-04-04
 categories: []

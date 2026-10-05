@@ -1,0 +1,66 @@
+---
+title: "Inalix Airport Solutions : FIDS & Digital Signage at Ngurah Rai International Airport"
+meta_title: "Inalix Airport Solutions : FIDS & Digital Signage at Ngurah Rai International Airport | INALIX"
+description: null
+date: 2022-06-22T05:00:00.000Z
+image: /images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp
+categories: 
+    - News
+author: Inalix
+tags: null
+draft: false
+preview: /images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp
+slug: FIDS & Digital Signage at Ngurah Rai International Airport
+---
+
+Airport Inalix solutions include FIDS and Digital Signage Systems. In this post we will show our solutions that implemented at Ngurah Rai International Airport, Bali.
+
+In its implementation on the screen for airport visitors can be combined between FIDS with Digital Signage. So there is flexibility to combine about flight informations, signage, airport facilities information and airport digital signages.
+
+These are examples of our implementations at Ngurah Rai International Airport.
+
+### Basic Flight Informations
+![](/images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp)
+Basic Flight Informations – Ngurah Rai International Airport
+
+### Public Information Message + Flight Informations
+![](/images/Public-Information-Message-with-Flight-Information-1.webp)
+Public Information Message + Flight Informations (Ngurah Rai International Airport)
+
+### Airport Informations + Flight Informations
+
+Flight Informations + Airport Informations (Ngurah Rai International Airport)
+
+### Digital Signage + Public Information Message
+
+Digital Signage + Public Information Message
+
+Digital Signage + Flight Informations
+-------------------------------------
+
+Digital Signage + Flight Informations
+
+World Clocks Informations
+-------------------------
+
+World Clocks Informations
+
+Welcoming & Farewell Display Message
+------------------------------------
+
+Welcome Message Display – Ngurah Rai International AirportFarewell Message Display – Ngurah Rai International Airport
+
+Inalix also provides other solutions for Ngurah Rai Airport :
+
+*   Automatic Announcement System
+    
+*   Airport Operational Database
+    
+*   Airport Billing System
+    
+*   Master Clock
+    
+*   Command Center
+    
+
+May be in next post we well write it in our articles.

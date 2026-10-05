@@ -1,8 +1,8 @@
 ---
-title: Automatic Announcement System
+title: Automatic Announcement System (X-AAS)
 slug: automatic-announcement-system
 image: images/x-aas-heading.webp
-meta_title: Automatic Announcement System | INALIX
+meta_title: Automatic Announcement System (X-AAS) | INALIX
 description: Automatic Announcement System
 date: 2022-04-04
 categories: []
@@ -15,8 +15,6 @@ INALIX Automatic Announcement System (X-AAS) provides real-time automation of vo
 ![](images/Inalix-AAS-Diagram.webp)
 
 ### **X-AAS** Features
-
-[](https://github.com/inalix/website-hugo/blob/test/content/english/products/x-aas.md#x-aasfeatures)
 
 X-AAS main features are as follows:
 

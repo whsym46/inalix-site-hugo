@@ -1,7 +1,8 @@
 ---
-title: Digital Signage & Videowall System
+title: Digital Signage & Videowall System (X-DSVS)
+slug: ''
 image: images/X-DSUS.webp
-meta_title: Digital Signage & Videowall System | INALIX
+meta_title: Digital Signage & Videowall System (X-DSVS) | INALIX
 description: Inalix Digital Signage & Videowall System
 date: 2022-04-04
 categories: []

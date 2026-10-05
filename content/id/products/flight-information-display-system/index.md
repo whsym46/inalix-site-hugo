@@ -1,8 +1,8 @@
 ---
-title: Flight Information Display System
+title: Flight Information Display System (X-FIDS)
 slug: ''
 image: images/X-FIDS.webp
-meta_title: Flight Information Display System | INALIX
+meta_title: Flight Information Display System (X-FIDS) | INALIX
 description: Flight Information Display System
 date: 2022-04-04
 categories: []

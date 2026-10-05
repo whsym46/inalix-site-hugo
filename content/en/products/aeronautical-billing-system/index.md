@@ -1,8 +1,8 @@
 ---
-title: Aeronautical Billing System
+title: Aeronautical Billing System (X-ABS)
 slug: ''
 image: images/X-ABS.webp
-meta_title: Aeronautical Billing System | INALIX
+meta_title: Aeronautical Billing System (X-ABS) | INALIX
 description: Aeronautical Billing System
 date: 2022-04-04
 categories: []
