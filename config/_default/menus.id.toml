@@ -1,0 +1,54 @@
+############# Bahasa Indonesia navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "Tentang"
+pageRef = "/about"
+weight = 2
+
+
+[[main]]
+name = "Produk"
+pageRef = "/products"
+weight = 4
+
+
+[[main]]
+name = "Proyek"
+pageRef = "/projects"
+weight = 5
+
+
+[[main]]
+name = "Berita"
+pageRef = "/news"
+weight = 6
+
+[[main]]
+name = "Kontak"
+pageRef = "/contact"
+weight = 7
+
+
+
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Elements"
+pageRef = "/elements"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
+weight = 3

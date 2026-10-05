@@ -1,0 +1,15 @@
+{{ range first 3 (where .Site.RegularPages "Section" "projects" ) }}
+<div class="flex flex-col">
+  <img src="{{ .Params.image }}" class="w-80 h-80 object-cover" alt=""/>
+  
+  <div class="flex flex-col p-8">
+    <h3 class="w-60 text-2xl lg:text-2xl font-bold flex justify-between items-end">
+    {{ .Title }}
+      <a href="{{ .RelPermalink }}" class="material-symbols-outlined cursor-pointer hover:translate-x-2 transition-transform ease-in-out">
+        arrow_forward
+      </a>
+    </h3>
+  
+  </div>
+</div>
+{{ end }}
