@@ -1,8 +1,9 @@
-name: Deploy Hugo to GitHub Pages
+name: Deploy Hugo site 
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -14,19 +15,16 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  HUGO_ENV: production
+  HUGO_VERSION: "0.124.1"
+  NODE_VERSION: "20.0.0"
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: "0.124.1"
-      NODE_VERSION: "20.0.0"
     steps:
       - uses: actions/checkout@v4
-
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.22'
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -39,12 +37,13 @@ jobs:
           tar -xvf hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
           sudo mv hugo /usr/local/bin/
           rm hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
+          hugo version
 
-      - name: Install Dependencies
+      - name: Install npm dependencies
         run: npm install
 
-      - name: Build Hugo Site
-        run: npx hugo --gc --minify || npm run build
+      - name: Build Site
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
