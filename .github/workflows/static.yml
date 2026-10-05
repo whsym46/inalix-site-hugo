@@ -36,11 +36,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm' # Sekarang aman dipakai karena package-lock.json sudah di-upload
+          cache: 'npm'
 
-      - name: Install Dependencies & Build CSS
+      - name: Install Dependencies & PostCSS
         run: |
           npm ci
+          npm install -g postcss-cli autoprefixer
           npm run prebuild || true
 
       - name: Setup Pages
