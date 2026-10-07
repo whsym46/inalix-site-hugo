@@ -1,9 +1,8 @@
 ---
 title: Sam Ratulangi Airport - FIDS
 draft: false
-image:
-  - images/slider-new5.webp
-meta_title: Sam Ratulangi Airport - FIDS | INALIX
+image: images/slider-new5.webp
+meta_title: Sam Ratulangi Airport - FIDS  | INALIX
 description: Sam Ratulangi Airport - FIDS
 categories:
   - Projects

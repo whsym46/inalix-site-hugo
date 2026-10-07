@@ -1,10 +1,12 @@
 ---
 title: judulnya
-draft: true
-image:
-  - images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp
+draft: false
+image: images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp
 meta_title: judulnya | INALIX
 description: '-'
+categories:
+  - News
+tags: []
 author: Inalix
 solution: Airport Solutions
 date: 2022-06-22

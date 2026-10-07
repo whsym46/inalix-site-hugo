@@ -1,8 +1,7 @@
 ---
 title: Hasanuddin International Airport - FIDS
 draft: false
-image:
-  - images/Hasanuddin-Airport.webp
+image: images/Hasanuddin-Airport.webp
 meta_title: Hasanuddin International Airport - FIDS | INALIX
 description: Hasanuddin International Airport - FIDS
 categories:

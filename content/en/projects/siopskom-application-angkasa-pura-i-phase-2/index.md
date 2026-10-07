@@ -1,9 +1,8 @@
 ---
 title: SIOPSKOM Application - Angkasa Pura I (Phase 2)
 draft: false
-image:
-  - images/AP1-SIOPSKOM-Phase2.webp
-meta_title: SIOPSKOM Application - Angkasa Pura I (Phase 2) | INALIX
+image: images/AP1-SIOPSKOM-Phase2.webp
+meta_title: SIOPSKOM Application - Angkasa Pura I (Phase 2)  | INALIX
 description: SIOPSKOM Application - Angkasa Pura I (Phase 2)
 categories:
   - Projects

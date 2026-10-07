@@ -1,8 +1,7 @@
 ---
 title: 5 Benefits of Implementing an Aeronautical Billing System (updated)
-draft: true
-image:
-  - images/Aeronautical-Billing.webp
+draft: false
+image: images/Aeronautical-Billing.webp
 meta_title: 5 Benefits of Implementing an Aeronautical Billing System (updated) | INALIX
 description: 5 Benefits of Implementing an Aeronautical Billing System
 categories:

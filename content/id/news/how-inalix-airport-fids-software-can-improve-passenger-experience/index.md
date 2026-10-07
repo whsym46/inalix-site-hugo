@@ -1,8 +1,7 @@
 ---
 title: How Inalix Airport FIDS Software Can Improve Passenger Experience
 draft: false
-image:
-  - images/Inalix-Airport-FIDS.webp
+image: images/Inalix-Airport-FIDS.webp
 meta_title: How Inalix Airport FIDS Software Can Improve Passenger Experience | INALIX
 description: How Inalix Airport FIDS Software Can Improve Passenger Experience
 categories:

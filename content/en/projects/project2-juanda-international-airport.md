@@ -1,16 +1,21 @@
 ---
 title: Juanda International Airport - FIDS, New Installation & System Maintenance
-draft: false
-image: images/slider-new11.webp
 meta_title: Juanda International Airport - FIDS, New Installation & System Maintenance | INALIX
-description: Juanda International Airport - FIDS, New Installation & System Maintenance
-categories:
-  - Projects
-tags: []
+description: ""
+date: 2002-05-15T05:00:00.000Z
+image: /images/slider-new11.jpg
+categories: null
 author: Inalix
-solution: Airport Solutions
-date: 2002-05-15
+tags: null
+draft: false
+preview: /images/slider-new11.jpg
+slug: Juanda International Airport
+fmContentType: project
+startdate: March 2002
+endate: April 2022
+client: Angkasa Pura I - Dinas Operasi & Elektronika
 ---
+
 
 New installation of Inalix FIDS at Juanda International Airpot. We also provide system maintenance to make sure that system running well and optimized.
 

@@ -1,8 +1,7 @@
 ---
 title: Vacation – Backend Developer
-draft: true
-image:
-  - images/Backend-Developer-Job-at-Inalix.webp
+draft: false
+image: images/Backend-Developer-Job-at-Inalix.webp
 meta_title: Vacation – Backend Developer | INALIX
 description: Vacation – Backend Developer at Inalix
 categories:

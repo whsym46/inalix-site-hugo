@@ -1,8 +1,7 @@
 ---
 title: Inalix ACDM Implementation at Juanda International Airport & I Gusti Ngurah Rai Airport
-draft: true
-image:
-  - images/Inalix-ACDM-Implementation-Juanda-Airport.webp
+draft: false
+image: images/Inalix-ACDM-Implementation-Juanda-Airport.webp
 meta_title: Inalix ACDM Implementation at Juanda International Airport & I Gusti Ngurah Rai Airport | INALIX
 description: Inalix ACDM Implementation at Juanda International Airport & I Gusti Ngurah Rai Airport
 categories:
