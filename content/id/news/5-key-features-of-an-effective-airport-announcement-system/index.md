@@ -1,7 +1,8 @@
 ---
 title: judul idsddsDCSw
 draft: true
-image: images/Automatic-Announcement-System-INALIX.webp
+image:
+  - images/Automatic-Announcement-System-INALIX.webp
 meta_title: judul idsddsDCSw | INALIX
 description: deskripsi id
 categories:

@@ -1,7 +1,8 @@
 ---
 title: judulnya
 draft: true
-image: images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp
+image:
+  - images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp
 meta_title: judulnya | INALIX
 description: '-'
 author: Inalix
@@ -19,7 +20,7 @@ These are examples of our implementations at Ngurah Rai International Airport.
 
 ![](images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp)
 
-Basic Flight Informations â€“ Ngurah Rai International Airport
+Basic Flight Informations – Ngurah Rai International Airport
 
 ### Public Information Message + Flight Informations
 
@@ -51,7 +52,7 @@ Welcoming & Farewell Display Message
 
 ------------------------------------
 
-Welcome Message Display â€“ Ngurah Rai International AirportFarewell Message Display â€“ Ngurah Rai International Airport
+Welcome Message Display – Ngurah Rai International AirportFarewell Message Display – Ngurah Rai International Airport
 
 Inalix also provides other solutions for Ngurah Rai Airport :
 
