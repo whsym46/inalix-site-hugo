@@ -10,7 +10,7 @@ categories:
 tags: []
 author: Inalix
 solution: Airport Solutions
-date: 2026-10-07
+date: 2019-07-19
 ---
 
 The “Airport Operational Database (AODB)/SIOPSKOM Implementation for Angkasa Pura I” project aimed to centralize and optimize the management of airport operations data across multiple airports. The AODB system serves as the core hub for integrating various operational processes, including flight scheduling, resource allocation, and real-time data tracking. By streamlining these functions, the system improved overall operational efficiency, decision-making, and communication between airport departments. This project significantly enhanced Angkasa Pura 1’s ability to manage complex airport operations, ensuring smoother coordination, improved service quality, and more efficient resource utilization across its managed airports.
