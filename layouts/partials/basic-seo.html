@@ -17,15 +17,17 @@
 
 
 <!-- checking description -->
-{{ $description := .Summary }}
+{{ $description := "" }}
 {{ if .Params.meta_description }}
   {{ $description = .Params.meta_description }}
   <!-- checking page description -->
 {{ else if .Params.description }}
   {{ $description = .Params.description }}
-  <!-- checking page description -->
+  <!-- checking site description -->
 {{ else if site.Params.metadata.description }}
   {{ $description = site.Params.metadata.description }}
+{{ else }}
+  {{ $description = .Summary }}
 {{ end }}
 
 

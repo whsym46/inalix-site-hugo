@@ -4,7 +4,7 @@
     {{ $image = index $image 0 }}
   {{ end }}
   {{ if $image }}
-  {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded object-cover h-64") }}
+  {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded object-cover aspect-video") }}
   {{ end }}
   <h4 class="mb-3 pt-4">
     <a href="{{ .RelPermalink }}">
@@ -31,7 +31,11 @@
     </li>
   </ul>
   {{ end }}
+  {{ if .Params.description }}
+  <p class="mb-6">{{ .Params.description | plainify | truncate 140 }}</p>
+  {{ else }}
   <p class="mb-6">{{ .Summary | plainify | truncate 140 }}</p>
+  {{ end }}
   <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
     {{ T "read_more" }}
   </a>
