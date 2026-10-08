@@ -172,34 +172,25 @@
   <div class="flex flex-col items-center gap-2">
     <h3 class="uppercase text-base">Our Clients</h3>
   </div>
-  <div class="flex gap-5 animate-scroll py-4">
-    {{ $clients := where site.RegularPages "Type" "clients" }}
-    {{ range $clients }}
-    {{ if .Params.image }}
-    {{ $imgSrc := "" }}
-    {{ $res := .Resources.GetMatch .Params.image }}
-    {{ if $res }}
-    {{ $imgSrc = $res.RelPermalink }}
-    {{ else }}
-    {{ $imgSrc = .Params.image | relURL }}
-    {{ end }}
-    <img src="{{ $imgSrc }}" alt="{{ .Params.name }}" class="h-24 w-auto object-contain bg-white p-4 rounded-lg shadow-sm">
-    {{ end }}
-    {{ end }}
-    <!-- Repeat logos if needed -->
-    {{ range $clients }}
-    {{ if .Params.image }}
-    {{ $imgSrc := "" }}
-    {{ $res := .Resources.GetMatch .Params.image }}
-    {{ if $res }}
-    {{ $imgSrc = $res.RelPermalink }}
-    {{ else }}
-    {{ $imgSrc = .Params.image | relURL }}
-    {{ end }}
-    <img src="{{ $imgSrc }}" alt="{{ .Params.name }}" class="h-24 w-auto object-contain bg-white p-4 rounded-lg shadow-sm">
-    {{ end }}
-    {{ end }}
-  </div>
+    <div class="flex animate-scroll py-4 w-max">
+      {{ $clients := where site.RegularPages "Type" "clients" }}
+      {{ range seq 10 }}
+        {{ range $clients }}
+        {{ if .Params.image }}
+        {{ $imgSrc := "" }}
+        {{ $res := .Resources.GetMatch .Params.image }}
+        {{ if $res }}
+        {{ $imgSrc = $res.RelPermalink }}
+        {{ else }}
+        {{ $imgSrc = .Params.image | relURL }}
+        {{ end }}
+        <div class="px-2.5 shrink-0">
+          <img src="{{ $imgSrc }}" alt="{{ .Params.name }}" class="h-24 w-[160px] object-contain bg-white p-4 rounded-lg shadow-sm">
+        </div>
+        {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
   <div class="absolute inset-y-0 left-0 w-1/5 bg-gradient-to-r from-gray-100 to-transparent pointer-events-none"></div>
   <div class="absolute inset-y-0 right-0 w-1/5 bg-gradient-to-l from-gray-100 to-transparent pointer-events-none"></div>
 </div>
@@ -216,7 +207,7 @@
   }
 
   .animate-scroll {
-    animation: scroll 10s linear infinite;
+    animation: scroll 30s linear infinite;
   }
 </style>
 
@@ -229,22 +220,44 @@
 
     let currentIndex = 0;
 
-    function showSlide(index) {
-      slides[index].classList.remove("translate-x-full");
-      slides[index].classList.add("translate-x-0", "z-10");
+    // Initialize all slides to the right
+    slides.forEach((slide, index) => {
+      slide.classList.remove("-translate-x-full", "translate-x-0", "translate-x-full");
+      if (index === 0) {
+        slide.classList.add("translate-x-0", "z-10");
+      } else {
+        slide.classList.add("translate-x-full", "z-0");
+      }
+    });
 
-      setTimeout(() => {
-        slides[index].classList.remove("translate-x-0", "z-10");
-        slides[index].classList.add("translate-x-full");
+    function transitionSlide() {
+      const currentSlide = slides[currentIndex];
+      const nextIndex = (currentIndex + 1) % slides.length;
+      const nextSlide = slides[nextIndex];
 
-        // Increment index and loop back to 0 if it exceeds the array length
-        currentIndex = (index + 1) % slides.length;
-        showSlide(currentIndex);
-      }, 4000); // Duration each slide is displayed
+      // Prepare next slide on the right instantly
+      nextSlide.style.transition = 'none';
+      nextSlide.classList.remove("-translate-x-full", "translate-x-0");
+      nextSlide.classList.add("translate-x-full", "z-10");
+      currentSlide.classList.remove("z-10");
+      currentSlide.classList.add("z-0");
+
+      // Force reflow
+      void nextSlide.offsetWidth;
+
+      // Animate current to left, next to center
+      nextSlide.style.transition = '';
+      
+      currentSlide.classList.remove("translate-x-0", "translate-x-full");
+      currentSlide.classList.add("-translate-x-full");
+
+      nextSlide.classList.remove("translate-x-full", "-translate-x-full");
+      nextSlide.classList.add("translate-x-0");
+
+      currentIndex = nextIndex;
     }
 
-    // Start the slider
-    showSlide(currentIndex);
+    setInterval(transitionSlide, 4000);
   });
 </script>
 

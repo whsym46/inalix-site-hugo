@@ -5,6 +5,7 @@ main {
 // section style
 .section {
   @apply py-24 xl:py-28;
+
   &-sm {
     @apply py-16 xl:py-20;
   }
@@ -27,10 +28,13 @@ main {
 // social icons
 .social-icons {
   @apply space-x-4;
+
   li {
     @apply inline-block;
+
     a {
-      @apply bg-primary dark:bg-darkmode-primary dark:text-dark flex h-9 w-9 items-center justify-center rounded text-center leading-9 text-white;
+      @apply text-light dark:text-dark dark:bg-theme-light bg-darkmode-theme-light border flex h-9 w-9 items-center justify-center rounded text-center leading-9 text-white;
+
       svg {
         @apply h-5 w-5;
       }
@@ -68,6 +72,7 @@ main {
   @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-dark prose-th:dark:text-darkmode-text;
   @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] prose-td:dark:text-darkmode-text;
+
   .btn {
     @apply dark:hover:text-dark no-underline hover:text-white #{!important};
   }

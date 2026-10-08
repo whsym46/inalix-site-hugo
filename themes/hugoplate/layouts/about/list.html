@@ -47,20 +47,24 @@
         <h2 class="mb-6">{{ .title }}</h2>
         <p class="text-lg text-text dark:text-darkmode-text">{{ .text }}</p>
       </div>
-      <div class="lg:col-7">
-        <!-- Slider Horizontal -->
-        <div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4" style="scrollbar-width: none;">
-          {{ range .images }}
-            {{ $imgSrc := "" }}
-            {{ $res := $.Resources.GetMatch .image }}
-            {{ if $res }}
-              {{ $imgSrc = $res.RelPermalink }}
-            {{ else }}
-              {{ $imgSrc = .image | relURL }}
+      <div class="lg:col-7 relative overflow-hidden">
+        <!-- Slider Horizontal Infinite -->
+        <div class="flex animate-scroll w-max">
+          {{ $cultureImages := .images }}
+          {{ $pageContext := $ }}
+          {{ range seq 10 }}
+            {{ range $cultureImages }}
+              {{ $imgSrc := "" }}
+              {{ $res := $pageContext.Resources.GetMatch .image }}
+              {{ if $res }}
+                {{ $imgSrc = $res.RelPermalink }}
+              {{ else }}
+                {{ $imgSrc = .image | relURL }}
+              {{ end }}
+              <div class="px-3 w-[280px] md:w-[400px] shrink-0">
+                <img src="{{ $imgSrc }}" alt="Culture" class="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg">
+              </div>
             {{ end }}
-            <div class="flex-none w-[85%] md:w-[60%] snap-center">
-              <img src="{{ $imgSrc }}" alt="Culture" class="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg">
-            </div>
           {{ end }}
         </div>
       </div>
@@ -68,6 +72,16 @@
   </div>
 </section>
 {{ end }}
+
+<style>
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .animate-scroll {
+    animation: scroll 20s linear infinite;
+  }
+</style>
 
 <!-- Values & Solutions -->
 <section class="section-sm">
