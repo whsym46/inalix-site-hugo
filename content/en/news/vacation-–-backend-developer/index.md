@@ -3,7 +3,7 @@ title: Vacation – Backend Developer
 draft: false
 image: images/Backend-Developer-Job-at-Inalix.webp
 meta_title: Vacation – Backend Developer | INALIX
-description: Vacation – Backend Developer at Inalix
+description: "Join our team as a Back-End Developer at Inalix and help revolutionize the airport industry with innovative software solutions. Apply now to shape the future of airport technology."
 categories:
   - News
 tags: []

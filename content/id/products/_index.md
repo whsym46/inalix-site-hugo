@@ -1,7 +1,7 @@
 ---
-title: "Produk Inalix"
+title: "Produk Kami"
 meta_title: ""
-description: "this is meta description"
+description: "Jelajahi rangkaian lengkap produk Inalix yang dirancang untuk meningkatkan operasional bandara, keamanan, dan pengalaman penumpang."
 ---
 
 ##  Produk Inalix

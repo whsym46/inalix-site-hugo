@@ -1,9 +1,9 @@
 ---
-title: Vacation – Backend Developer
+title: "Lowongan – Backend Developer"
 draft: false
 image: images/Backend-Developer-Job-at-Inalix.webp
 meta_title: Vacation – Backend Developer | INALIX
-description: Vacation – Backend Developer at Inalix
+description: "Bergabunglah dengan tim kami sebagai Back-End Developer di Inalix dan bantu merevolusi industri bandara melalui solusi perangkat lunak inovatif. Lamar sekarang untuk membentuk masa depan teknologi bandara."
 categories:
   - News
 tags: []
@@ -12,24 +12,24 @@ solution: Airport Solutions
 date: 2023-12-21
 ---
 
-**Join Our Team as a Back-End Developer at Inalix**
+**Bergabunglah Bersama Tim Kami Sebagai Back-End Developer di Inalix**
 
-Are you ready to embark on a journey where your coding skills can redefine the future of airport solutions? At Inalix, we’re on a mission to transform the airport industry with innovative software that enhances safety, efficiency, and passenger experience. As a Back-End Developer at Inalix, you will be at the forefront of this transformation, working on cutting-edge projects that drive the digital evolution of airports. If you’re passionate about back-end development and want to be part of a team that’s creating solutions for airports, we invite you to join us on this exciting adventure.
+Apakah Anda siap untuk memulai perjalanan di mana keahlian coding Anda dapat mendefinisikan ulang masa depan solusi bandara? Di Inalix, kami memiliki misi untuk mentransformasi industri bandara dengan perangkat lunak inovatif yang meningkatkan keselamatan, efisiensi, dan pengalaman penumpang. Sebagai Back-End Developer di Inalix, Anda akan berada di garis depan transformasi ini, bekerja pada proyek-proyek mutakhir yang mendorong evolusi digital bandara.
 
 ![](images/Backend-Developer-at-Inalix.webp)
 
-Requirements :
+Persyaratan:
 
 - Python
 - Django Framework
-- Familiar with REST API
-- Familiar with Kubernetes (plus value)
+- Terbiasa dengan REST API
+- Terbiasa dengan Kubernetes (nilai tambah)
 
-Benefits :
+Manfaat:
 
 - BPJS Kesehatan
-- BPJS Ketenegakerjaan
+- BPJS Ketenagakerjaan
 
-Email your CV and application letter to [judiz@inalix.com](mailto:judiz@inalix.com) and write “Backend Dev Apply” in the subject line.
+Kirimkan CV dan surat lamaran Anda ke [judiz@inalix.com](mailto:judiz@inalix.com) dan tulis "Backend Dev Apply" pada baris subjek.
 
-Placement at the Inalix Developer Office, Lamongan – East Java
+Penempatan di Kantor Pengembang Inalix, Lamongan – Jawa Timur

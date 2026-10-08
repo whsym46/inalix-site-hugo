@@ -1,7 +1,7 @@
 ---
 title: "About Inalix"
 meta_title: "About"
-description: "this is meta description"
+description: "Learn more about PT. Inalix, our history, and our commitment to delivering the best Airport Information Technologies since 2002."
 image: ""
 draft: false
 ---

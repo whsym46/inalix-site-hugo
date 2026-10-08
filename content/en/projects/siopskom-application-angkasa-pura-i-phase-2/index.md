@@ -3,7 +3,7 @@ title: SIOPSKOM Application - Angkasa Pura I (Phase 2)
 draft: false
 image: images/AP1-SIOPSKOM-Phase2.webp
 meta_title: SIOPSKOM Application - Angkasa Pura I (Phase 2)  | INALIX
-description: SIOPSKOM Application - Angkasa Pura I (Phase 2)
+description: "Centralization and optimization of airport operations for Angkasa Pura I through the advanced AODB/SIOPSKOM implementation, enhancing resource allocation and real-time data management."
 categories:
   - Projects
 tags: []

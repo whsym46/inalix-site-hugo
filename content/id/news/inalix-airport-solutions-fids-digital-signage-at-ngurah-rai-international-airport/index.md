@@ -1,9 +1,9 @@
 ---
-title: judulnya
+title: "Solusi Bandara Inalix : FIDS & Digital Signage di Bandara Internasional Ngurah Rai"
 draft: false
 image: images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp
-meta_title: judulnya | INALIX
-description: '-'
+meta_title: 'Inalix Airport Solutions : FIDS & Digital Signage at Ngurah Rai International Airport | INALIX'
+description: "Jelajahi implementasi sistem FIDS dan Digital Signage dari Inalix di Bandara Internasional Ngurah Rai, yang menampilkan tayangan informasi yang fleksibel dan dinamis bagi penumpang."
 categories:
   - News
 tags: []
@@ -12,60 +12,46 @@ solution: Airport Solutions
 date: 2022-06-22
 ---
 
-Airport Inalix solutions include FIDS and Digital Signage Systems. In this post we will show our solutions that implemented at Ngurah Rai International Airport, Bali.
+Solusi Bandara Inalix meliputi FIDS dan Sistem Digital Signage. Pada postingan kali ini kami akan menunjukkan solusi kami yang diterapkan di Bandara Internasional Ngurah Rai, Bali.
 
-In its implementation on the screen for airport visitors can be combined between FIDS with Digital Signage. So there is flexibility to combine about flight informations, signage, airport facilities information and airport digital signages.
+Dalam penerapannya pada layar untuk pengunjung bandara, FIDS dan Digital Signage dapat digabungkan. Sehingga terdapat fleksibilitas untuk memadukan informasi penerbangan, rambu, informasi fasilitas bandara, dan papan reklame digital bandara.
 
-These are examples of our implementations at Ngurah Rai International Airport.
+Berikut ini adalah beberapa contoh implementasi kami di Bandara Internasional Ngurah Rai.
 
-### Basic Flight Informations
+### Informasi Penerbangan Dasar
 
-![](images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp)
+![Basic Flight Informations – Ngurah Rai International Airport](images/Inalix-Flight-Information-Display-System-Bali-Airport-1.webp "Basic Flight Informations – Ngurah Rai International Airport")
 
-Basic Flight Informations – Ngurah Rai International Airport
+### Pesan Informasi Publik + Informasi Penerbangan
 
-### Public Information Message + Flight Informations
+![Public Information Message + Flight Informations (Ngurah Rai International Airport)](images/Public-Information-Message-with-Flight-Information-1.webp "Public Information Message + Flight Informations (Ngurah Rai International Airport)")
 
-![](images/Public-Information-Message-with-Flight-Information-1.webp)
+### Informasi Bandara + Informasi Penerbangan
 
-Public Information Message + Flight Informations (Ngurah Rai International Airport)
+Informasi Penerbangan + Informasi Bandara (Bandara Internasional Ngurah Rai)
 
-### Airport Informations + Flight Informations
+### Digital Signage + Pesan Informasi Publik
 
-Flight Informations + Airport Informations (Ngurah Rai International Airport)
-
-### Digital Signage + Public Information Message
-
-Digital Signage + Public Information Message
-
-Digital Signage + Flight Informations
+Digital Signage + Pesan Informasi Publik
 
 -------------------------------------
 
-Digital Signage + Flight Informations
+Digital Signage + Informasi Penerbangan
 
-World Clocks Informations
+Informasi Jam Dunia (World Clocks)
 
 -------------------------
 
-World Clocks Informations
-
-Welcoming & Farewell Display Message
+Pesan Penyambutan & Perpisahan (Welcoming & Farewell Message)
 
 ------------------------------------
 
-Welcome Message Display – Ngurah Rai International AirportFarewell Message Display – Ngurah Rai International Airport
+Inalix juga menyediakan solusi lain untuk Bandara Ngurah Rai:
 
-Inalix also provides other solutions for Ngurah Rai Airport :
+* Sistem Pengumuman Otomatis
+* Database Operasional Bandara
+* Sistem Penagihan Bandara
+* Jam Utama (Master Clock)
+* Pusat Komando (Command Center)
 
-\*   Automatic Announcement System
-
-\*   Airport Operational Database
-
-\*   Airport Billing System
-
-\*   Master Clock
-
-\*   Command Center
-
-May be in next post we well write it in our articles.
+Mungkin di postingan berikutnya kami akan menulisnya di artikel kami yang lain.

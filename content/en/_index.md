@@ -26,26 +26,26 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "Discover the Key Features of Inalix Solutions"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Inalix offers an all-in-one integrated ecosystem for building fast, reliable, and secure airport operations. We offer a range of cutting-edge features for airports and industries. Some of the key features are:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "High Availability: Robust architecture designed for 24/7 mission-critical operations."
+      - "Customizable: Adaptable modules and interfaces tailored to your specific operational needs."
+      - "Integration-ready: Seamlessly connects with existing airport infrastructures and third-party systems."
     button:
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "The Top Reasons to Choose Inalix for Your Airport Operations"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "With Inalix, you can build modern, efficient, and reliable airport operations without sacrificing safety or ease of use."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Instant real-time data processing for better passenger experience and operational efficiency."
+      - "Intuitive user interfaces and comprehensive training make learning and using Inalix systems a breeze."
+      - "Scalable architecture supports any airport size, from regional hubs to international gateways."
+      - "Built on cutting-edge technology to keep your operations up-to-date with the latest aviation standards."
     button:
       enable: false
       label: ""

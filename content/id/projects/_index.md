@@ -1,7 +1,7 @@
 ---
-title: "Proyek Inalix"
+title: "Proyek Kami"
 meta_title: ""
-description: "this is meta description"
+description: "Temukan portofolio solusi bandara kami yang berhasil diimplementasikan di berbagai wilayah di Indonesia."
 ---
 
 ##  Proyek Inalix

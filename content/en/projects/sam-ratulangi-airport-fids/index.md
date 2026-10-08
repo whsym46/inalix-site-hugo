@@ -3,7 +3,7 @@ title: Sam Ratulangi Airport - FIDS
 draft: false
 image: images/slider-new5.webp
 meta_title: Sam Ratulangi Airport - FIDS  | INALIX
-description: Sam Ratulangi Airport - FIDS
+description: "Implementation of the Inalix Flight Information Display System (FIDS) at Sam Ratulangi Airport to elevate operational standards and deliver a superior passenger experience."
 categories:
   - Projects
 tags: []

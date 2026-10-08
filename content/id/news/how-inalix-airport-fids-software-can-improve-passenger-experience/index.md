@@ -1,9 +1,9 @@
 ---
-title: How Inalix Airport FIDS Software Can Improve Passenger Experience
+title: "Bagaimana Perangkat Lunak FIDS Bandara Inalix Dapat Meningkatkan Pengalaman Penumpang"
 draft: false
 image: images/Inalix-Airport-FIDS.webp
-meta_title: How Inalix Airport FIDS Software Can Improve Passenger Experience | INALIX
-description: How Inalix Airport FIDS Software Can Improve Passenger Experience
+meta_title: How Inalix Airport FIDS Software Can Improve Passenger Experience  | INALIX
+description: "Pelajari bagaimana perangkat lunak Flight Information Display System (FIDS) dari Inalix meningkatkan pengalaman penumpang dengan menyajikan pembaruan penerbangan real-time, tampilan yang dapat disesuaikan, dan efisiensi operasional bandara."
 categories:
   - News
 tags: []
@@ -14,34 +14,24 @@ date: 2023-05-19
 
 [![](images/Inalix-Airport-FIDS.webp)](https://github.com/inalix/website-hugo/blob/test/images/Inalix-Airport-FIDS.webp)
 
-Inalix Airport FIDS software is a powerful tool that can help airports manage their operations more efficiently and provide a better experience for passengers. In this guide, we’ll explore the benefits of FIDS software and how it can be used to improve airport operations. Whether you’re an airport manager or a frequent traveler, you’ll find valuable information in this informative guide.
+Perangkat lunak Inalix Airport FIDS adalah alat yang ampuh yang dapat membantu bandara mengelola operasionalnya dengan lebih efisien dan memberikan pengalaman yang lebih baik bagi penumpang.
 
-## **What is FIDS software and how does it work?**
+## **Apa itu perangkat lunak FIDS dan bagaimana cara kerjanya?**
 
-[](https://github.com/inalix/website-hugo/blob/test/content/english/news/post-6.md#what-is-fids-software-and-how-does-it-work)
+FIDS adalah singkatan dari Flight Information Display System, sebuah perangkat lunak yang digunakan bandara untuk menampilkan informasi penerbangan real-time kepada penumpang. FIDS mengumpulkan data dari berbagai sumber seperti maskapai, ground handler, dan kontrol lalu lintas udara, lalu menampilkannya di layar.
 
-FIDS stands for Flight Information Display System, and it is a software system used by airports to display real-time flight information to passengers. FIDS software works by collecting data from various sources, such as airlines, ground handlers, and air traffic control, and displaying it on screens throughout the airport. This information includes flight schedules, gate assignments, departure and arrival times, and any delays or cancellations. By providing accurate and up-to-date information, FIDS software can help passengers navigate the airport more easily and reduce stress and frustration.
+## **Manfaat perangkat lunak FIDS Inalix untuk operasional bandara.**
 
-## **Benefits of Inalix FIDS software for airport operations.**
+Perangkat lunak FIDS menawarkan banyak manfaat bagi operasional bandara, termasuk peningkatan efisiensi dan penghematan biaya. Dengan mengotomatiskan proses pengumpulan dan penampilan data, beban kerja staf berkurang dan risiko kesalahan diminimalkan.
 
-[](https://github.com/inalix/website-hugo/blob/test/content/english/news/post-6.md#benefits-of-inalix-fids-software-for-airport-operations)
+## **Meningkatkan pengalaman penumpang dengan FIDS Inalix.**
 
-FIDS software offers numerous benefits for airport operations, including improved efficiency and cost savings. By automating the process of collecting and displaying flight information, FIDS software can reduce the workload for airport staff and minimize the risk of errors or delays. This can lead to faster turnaround times for flights and a more streamlined airport experience for passengers. Additionally, FIDS software can help airports better manage resources, such as gates and staff, by providing real-time information on flight schedules and delays. Overall, FIDS software is a valuable tool for improving airport operations and enhancing the passenger experience.
+Perangkat lunak FIDS sangat meningkatkan pengalaman penumpang dengan menyajikan pembaruan secara real-time. Hal ini mengurangi waktu tunggu dan kebingungan penumpang di bandara.
 
-## **Improving passenger experience with Inalix FIDS software.**
+## **Informasi penerbangan real-time.**
 
-[](https://github.com/inalix/website-hugo/blob/test/content/english/news/post-6.md#improving-passenger-experience-with-inalix-fids-software)
+Salah satu manfaat utamanya adalah kemampuan untuk memberikan informasi penerbangan dan pembaruan secara real-time kepada penumpang, termasuk penundaan, pembatalan, perubahan gerbang, dan waktu boarding.
 
-FIDS software can greatly improve the passenger experience by providing real-time flight information and updates. This allows passengers to stay informed about their flight status and make necessary adjustments to their travel plans. Additionally, FIDS software can help reduce wait times and congestion by providing accurate information on gate assignments and boarding times. This can lead to a more efficient and stress-free airport experience for passengers. By investing in FIDS software, airports can demonstrate their commitment to providing a high-quality passenger experience and improve their overall reputation in the industry.
+## **Opsi penyesuaian untuk bandara dan maskapai.**
 
-## **Real-time flight information and updates.**
-
-[](https://github.com/inalix/website-hugo/blob/test/content/english/news/post-6.md#real-time-flight-information-and-updates)
-
-One of the key benefits of Inalix  airport FIDS software is the ability to provide real-time flight information and updates to passengers. This includes information on flight delays, cancellations, gate changes, and boarding times. By keeping passengers informed about their flight status, airports can help reduce stress and anxiety, and allow passengers to make necessary adjustments to their travel plans. This can lead to a more positive passenger experience and improve overall satisfaction with the airport. Additionally, real-time updates can help reduce confusion and congestion in the airport, as passengers are able to quickly and easily access the information they need.
-
-## **Customization options for airports and airlines.**
-
-[](https://github.com/inalix/website-hugo/blob/test/content/english/news/post-6.md#customization-options-for-airports-and-airlines)
-
-Inalix Airport FIDS software offers a range of customization options for airports and airlines. This includes the ability to customize the display of flight information, such as font size and color, as well as the ability to add branding and advertising. Additionally, airports and airlines can choose to display additional information, such as weather updates and local news, to further enhance the passenger experience. Customization options allow airports and airlines to tailor the FIDS software to their specific needs and brand, creating a unique and personalized experience for passengers.
+Perangkat lunak Inalix Airport FIDS menawarkan berbagai opsi penyesuaian. Bandara dapat menyesuaikan tampilan informasi, ukuran font, warna, serta menambahkan pencitraan merek (branding) dan iklan.

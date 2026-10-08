@@ -3,7 +3,7 @@ title: Aeronautical Billing System (X-ABS)
 slug: ''
 image: images/X-ABS.webp
 meta_title: Aeronautical Billing System (X-ABS) | INALIX
-description: Aeronautical Billing System
+description: "Inalix Aero Billing System (X-ABS) automatically calculates aeronautical billing based on operational data, producing accurate invoices and financial reports."
 date: 2022-04-04
 categories: []
 tags: []

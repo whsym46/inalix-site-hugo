@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Inalix - Penyedia Solusi Airport & Industri Manufaktur"
-  content: "Inalix offers wide range of solutions for all of your airport system needs. Our track records can prove our worthy. We develop our own custom system for airport from Flight Information Display System (FIDS), Billing system, to Airport Operation Data Base (AODB). Either Landside or Airside, Inalix has the solutions."
+  title: Inalix - Penyedia Solusi Airport & Industri Manufaktur
+  content: Inalix offers wide range of solutions for all of your airport system needs. Our track records can prove our worthy. We develop our own custom system for airport from Flight Information Display System (FIDS), Billing system, to Airport Operation Data Base (AODB). Either Landside or Airside, Inalix has the solutions.
   image: "/images/banner.png"
   button:
     enable: true
@@ -11,41 +11,41 @@ banner:
 
 # Features
 features:
-  - title: "Why Choose Us"
+  - title: "Beranda"
     image: "/images/service-1.png"
-    content: "Inalix has experience since 2002 in building software solutions for airports and industrial."
+    content: "Inalix telah berpengalaman sejak tahun 2002 dalam membangun solusi perangkat lunak untuk bandara dan industri."
     bulletpoints:
-      - "Robust & Reliable System"
-      - "Fast Technical Support"
-      - "20+ Years Experiences"
-      - "Solid Teamwork"
-      - "Customized Solutions"
-      - "Cutting Edge Technology"
+      - "Sistem yang Kuat & Andal"
+      - "Dukungan Teknis Cepat"
+      - "Pengalaman Lebih Dari 20 Tahun"
+      - "Kerja Sama Tim yang Solid"
+      - "Solusi yang Dapat Disesuaikan"
+      - "Teknologi Mutakhir"
     button:
       enable: false
-      label: "Get Started Now"
+      label: "Mulai Sekarang"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "Temukan Fitur Utama Solusi Inalix"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Inalix menawarkan ekosistem terintegrasi untuk membangun operasional bandara yang cepat, andal, dan aman. Kami menawarkan berbagai fitur mutakhir. Beberapa fitur utamanya adalah:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Ketersediaan Tinggi (High Availability): Arsitektur kuat yang dirancang untuk operasi 24/7."
+      - "Dapat Disesuaikan: Modul dan antarmuka yang dapat disesuaikan dengan kebutuhan operasional spesifik Anda."
+      - "Siap Integrasi: Terhubung secara mulus dengan infrastruktur bandara yang ada dan sistem pihak ketiga."
     button:
       enable: true
-      label: "Get Started Now"
+      label: "Mulai Sekarang"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "Alasan Utama Memilih Inalix untuk Operasional Bandara Anda"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Dengan Inalix, Anda dapat membangun operasi bandara yang modern, efisien, dan andal tanpa mengorbankan keselamatan atau kemudahan penggunaan."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Pemrosesan data real-time instan untuk pengalaman penumpang dan efisiensi operasional yang lebih baik."
+      - "Antarmuka pengguna yang intuitif dan pelatihan komprehensif membuat pembelajaran sistem Inalix menjadi sangat mudah."
+      - "Arsitektur terukur mendukung ukuran bandara apa pun, dari hub regional hingga gerbang internasional."
+      - "Dibangun dengan teknologi mutakhir untuk menjaga operasional Anda tetap mutakhir dengan standar penerbangan terbaru."
     button:
       enable: false
       label: ""
