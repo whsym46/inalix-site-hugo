@@ -4,22 +4,34 @@
 <!-- History Section -->
 <section class="section-sm">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
+    <div class="row gx-5 mb-8">
+      <div class="lg:col-5 flex items-center justify-center mb-10 lg:mb-0">
+        <div class="w-full lg:w-4/5">
+          {{ partial "logo" (dict "Class" "w-full h-auto text-dark dark:text-white") }}
+        </div>
+      </div>
+      <div class="lg:col-7">
         <h2 class="mb-6">{{ .Params.history_title }}</h2>
-        <div class="content block clear-both">
-          {{ if .Params.logo }}
-          <div class="float-left mr-8 lg:mr-16 mb-16 lg:mb-32 w-64 lg:w-80">
-            {{ $logoClass := "w-full object-contain" }}
-            {{ partial "image" (dict "Src" .Params.logo "Context" .Page "Alt" "Inalix Logo" "Class" $logoClass) }}
-          </div>
-          {{ else if .Params.history_image }}
-          <div class="float-left mr-8 mb-6 w-full md:w-1/2 lg:w-5/12">
-            {{ $imgClass := "w-full rounded-lg shadow-lg" }}
-            {{ partial "image" (dict "Src" .Params.history_image "Context" .Page "Alt" .Params.history_title "Class" $imgClass) }}
-          </div>
+        <div class="content text-lg">
+          {{ $paragraphs := split .Content "</p>" }}
+          {{ range $i, $p := $paragraphs }}
+            {{ if and (lt $i 4) (ne (trim $p " \n\r") "") }}
+              {{ $p | safeHTML }}</p>
+            {{ end }}
           {{ end }}
-          {{ .Content }}
+        </div>
+      </div>
+    </div>
+    
+    <div class="row gx-5">
+      <div class="lg:col-12">
+        <div class="content text-lg">
+          {{ $paragraphs := split .Content "</p>" }}
+          {{ range $i, $p := $paragraphs }}
+            {{ if and (ge $i 4) (ne (trim $p " \n\r") "") }}
+              {{ $p | safeHTML }}</p>
+            {{ end }}
+          {{ end }}
         </div>
       </div>
     </div>
@@ -31,15 +43,24 @@
 <section class="section-sm bg-theme-light dark:bg-darkmode-theme-light">
   <div class="container">
     <div class="row items-center">
-      <div class="lg:col-6 mb-10 lg:mb-0">
+      <div class="lg:col-5 mb-10 lg:mb-0">
         <h2 class="mb-6">{{ .title }}</h2>
         <p class="text-lg text-text dark:text-darkmode-text">{{ .text }}</p>
       </div>
-      <div class="lg:col-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="lg:col-7">
+        <!-- Slider Horizontal -->
+        <div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4" style="scrollbar-width: none;">
           {{ range .images }}
-          {{ $imgClass := "w-full h-48 object-cover rounded shadow" }}
-          {{ partial "image" (dict "Src" .image "Context" $ "Alt" "Culture Image" "Class" $imgClass) }}
+            {{ $imgSrc := "" }}
+            {{ $res := $.Resources.GetMatch .image }}
+            {{ if $res }}
+              {{ $imgSrc = $res.RelPermalink }}
+            {{ else }}
+              {{ $imgSrc = .image | relURL }}
+            {{ end }}
+            <div class="flex-none w-[85%] md:w-[60%] snap-center">
+              <img src="{{ $imgSrc }}" alt="Culture" class="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg">
+            </div>
           {{ end }}
         </div>
       </div>

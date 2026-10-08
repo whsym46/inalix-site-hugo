@@ -1,5 +1,8 @@
 <div class="bg-body dark:bg-darkmode-body">
   {{ $image := .Params.image }}
+  {{ if reflect.IsSlice $image }}
+    {{ $image = index $image 0 }}
+  {{ end }}
   {{ if $image }}
   {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded object-cover h-48") }}
   {{ end }}

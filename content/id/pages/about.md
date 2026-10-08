@@ -60,6 +60,7 @@ sidebar_card:
 
 PT. INALIX didirikan pada tanggal 10 Juni 2002. Dengan semangat untuk mengembangkan Teknologi Informasi (TI) di Indonesia dan mengoptimalkan mekanisme manajemen pengetahuan, Inalix bertujuan untuk menciptakan masyarakat bangsa yang berwawasan teknologi.
 
+
 Berdasarkan rekam jejak proyek kami, kami telah memasok berbagai produk TI Bandara ke sejumlah bandara di Indonesia. Proyek sukses pertama kami dimulai di Bandara Hang Nadim Batam pada tahun 2001, di mana kami ditugaskan untuk memigrasi FIDS (Flight Information Display System) yang sudah ada ke produk FIDS terbaru kami, yaitu INALIX-FIDS. Setelahnya, kami mendapatkan kepercayaan lain di Bandara Sepinggan Balikpapan untuk kembali melakukan migrasi sistem FIDS ke Inalix FIDS.
 
 Sejak saat itu, PT. Inalix telah berkomitmen penuh untuk terjun secara serius ke dalam industri TI nasional dengan fokus utama pada pengembangan sistem dan penyediaan layanan untuk kebutuhan TI Bandara.
