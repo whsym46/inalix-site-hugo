@@ -1,5 +1,7 @@
 ---
 title: Contact Us
+type: contact
+layout: list
 offices:
   - name: Head Office
     address: |-

@@ -1,0 +1,32 @@
+[full_name]
+other = "Nama Lengkap"
+
+[working_email]
+other = "Email Aktif"
+
+[contact_phone]
+other = "Nomor Telepon"
+
+[contact_message]
+other = "Pesan Anda"
+
+[contact_message_placeholder]
+other = "Tulis pesan Anda di sini..."
+
+[read_more]
+other = "Baca Selengkapnya"
+
+[tags]
+other = "Label"
+
+[categories]
+other = "Kategori"
+
+[home]
+other = "Beranda"
+
+[share]
+other = "Bagikan"
+
+[related_posts]
+other = "Artikel Terkait"

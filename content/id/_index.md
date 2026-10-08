@@ -47,7 +47,7 @@ features:
       - "Arsitektur terukur mendukung ukuran bandara apa pun, dari hub regional hingga gerbang internasional."
       - "Dibangun dengan teknologi mutakhir untuk menjaga operasional Anda tetap mutakhir dengan standar penerbangan terbaru."
     button:
-      enable: false
+      enable: true
       label: ""
       link: ""
 ---

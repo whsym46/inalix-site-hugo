@@ -1,0 +1,32 @@
+[full_name]
+other = "Full Name"
+
+[working_email]
+other = "Working Email"
+
+[contact_phone]
+other = "Phone Number"
+
+[contact_message]
+other = "How can we help?"
+
+[contact_message_placeholder]
+other = "Message goes here..."
+
+[read_more]
+other = "Read More"
+
+[tags]
+other = "Tags"
+
+[categories]
+other = "Categories"
+
+[home]
+other = "Home"
+
+[share]
+other = "Share"
+
+[related_posts]
+other = "Related Posts"

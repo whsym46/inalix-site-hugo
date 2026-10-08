@@ -1,33 +1,34 @@
 ---
-title: "Privacy"
-# meta title
-meta_title: ""
-# meta description
-description: "This is meta description"
-# save as draft
+title: "Kebijakan Privasi"
+meta_title: "Kebijakan Privasi | INALIX"
+description: "Kebijakan Privasi PT. Inalix mengenai pengumpulan, penggunaan, dan perlindungan data pribadi."
 draft: false
 ---
 
-#### Responsibility of Contributors
+Di PT. Inalix, yang dapat diakses dari inalix.com, salah satu prioritas utama kami adalah privasi pengunjung kami. Dokumen Kebijakan Privasi ini berisi jenis informasi yang dikumpulkan dan dicatat oleh Inalix beserta cara kami menggunakannya.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+Jika Anda memiliki pertanyaan tambahan atau memerlukan informasi lebih lanjut tentang Kebijakan Privasi kami, jangan ragu untuk menghubungi kami.
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+#### Informasi yang Kami Kumpulkan
 
-#### Gathering of Personal Information
+Kami hanya mengumpulkan informasi tentang Anda jika kami memiliki alasan untuk melakukannya—misalnya, untuk menyediakan Layanan kami, untuk berkomunikasi dengan Anda, atau untuk menyempurnakan Layanan kami. Informasi pribadi yang diminta dari Anda, beserta alasan mengapa Anda diminta untuk memberikannya, akan dijelaskan secara transparan pada saat kami meminta Anda untuk memberikan informasi pribadi tersebut.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+Jika Anda menghubungi kami secara langsung, kami mungkin akan menerima informasi tambahan tentang Anda seperti nama, alamat email, nomor telepon, isi pesan dan/atau lampiran yang mungkin Anda kirimkan kepada kami, serta informasi lain yang Anda pilih untuk diberikan.
 
-#### Protection of Personal- Information
+#### Bagaimana Kami Menggunakan Informasi Anda
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+Kami menggunakan informasi yang kami kumpulkan dengan berbagai cara, termasuk untuk:
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+* Menyediakan, mengoperasikan, dan memelihara situs web dan layanan kami
+* Memperbaiki, mempersonalisasi, dan mengembangkan situs web kami
+* Memahami dan menganalisis bagaimana Anda menggunakan situs web kami
+* Mengembangkan produk, layanan, fitur, dan fungsionalitas baru
+* Berkomunikasi dengan Anda, baik secara langsung maupun melalui salah satu mitra kami, termasuk untuk layanan pelanggan, guna memberi Anda pembaruan dan informasi lain yang berkaitan dengan situs web.
 
-#### Privacy Policy Changes
+#### File Log (Log Files)
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+Inalix mengikuti prosedur standar penggunaan file log. File-file ini mencatat pengunjung ketika mereka mengunjungi situs web. Semua perusahaan penyedia hosting melakukan ini sebagai bagian dari analitik layanan hosting. Informasi yang dikumpulkan oleh file log meliputi alamat protokol internet (IP), jenis peramban (browser), Penyedia Layanan Internet (ISP), stempel tanggal dan waktu, halaman perujuk/keluar, dan mungkin jumlah klik. Data ini tidak tertaut ke informasi apa pun yang dapat diidentifikasi secara pribadi. Tujuan dari informasi ini adalah untuk menganalisis tren, mengelola situs, melacak pergerakan pengguna di situs web, dan mengumpulkan informasi demografis.
+
+#### Perubahan pada Kebijakan Privasi Ini
+
+Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Oleh karena itu, kami menyarankan Anda untuk meninjau halaman ini secara berkala untuk mengetahui setiap perubahannya. Kami akan memberi tahu Anda tentang segala perubahan dengan memposting Kebijakan Privasi yang baru di halaman ini. Perubahan ini berlaku efektif segera setelah diposting di halaman ini.
