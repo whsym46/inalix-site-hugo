@@ -46,7 +46,7 @@
     {{ partial "search-modal.html" (dict "Context" . ) }}
 
 
-    <main>
+    <main class="{{ if not .IsHome }}pt-28{{ end }}">
       {{ block "main" . }}{{ end }}
     </main>
 
