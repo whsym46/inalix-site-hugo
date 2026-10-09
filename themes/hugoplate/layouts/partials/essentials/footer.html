@@ -36,10 +36,11 @@
     </div>
   </div>
   <div class="border-border dark:border-darkmode-border border-t py-7">
-    <div class="text-light dark:text-darkmode-light container text-center">
+    <div class="text-light dark:text-darkmode-light container flex flex-col items-center justify-center space-y-4">
       <p>
         {{ site.Params.copyright | markdownify }}
       </p>
+      {{ partial "components/theme-switcher" (dict "Class" "") }}
     </div>
   </div>
 </footer>
