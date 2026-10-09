@@ -1,39 +1,35 @@
 {{ range first 3 (where .Site.RegularPages "Section" "news") }}
 <div class="flex flex-col justify-between">
-    <div>
-      {{ $imgSrc := "" }}
-      {{ if .Params.image }}
-        {{ $imagePath := .Params.image }}
-        {{ if reflect.IsSlice .Params.image }}
-          {{ $imagePath = index .Params.image 0 }}
-        {{ end }}
-        {{ $res := .Resources.GetMatch $imagePath }}
-        {{ if $res }}
-          {{ $imgSrc = $res.RelPermalink }}
-        {{ else }}
-          {{ $imgSrc = $imagePath | relURL }}
-        {{ end }}
-      {{ end }}
-      {{ if $imgSrc }}
-      <img src="{{ $imgSrc }}" class="w-80 aspect-video object-cover rounded-lg" alt="{{ .Title }}"/>
-      {{ else }}
-      <div class="w-80 aspect-video bg-theme-light dark:bg-darkmode-theme-light rounded-lg"></div>
-      {{ end }}
-      <div class="flex flex-col p-2 lg:p-8">
-        <h3
-          class="w-full lg:w-60 text-2xl lg:text-2xl font-bold flex justify-between items-end"
-        >
+  <div>
+    {{ $imgSrc := "" }}
+    {{ if .Params.image }}
+    {{ $imagePath := .Params.image }}
+    {{ if reflect.IsSlice .Params.image }}
+    {{ $imagePath = index .Params.image 0 }}
+    {{ end }}
+    {{ $res := .Resources.GetMatch $imagePath }}
+    {{ if $res }}
+    {{ $imgSrc = $res.RelPermalink }}
+    {{ else }}
+    {{ $imgSrc = $imagePath | relURL }}
+    {{ end }}
+    {{ end }}
+    {{ if $imgSrc }}
+    <img src="{{ $imgSrc }}" class="w-full md:w-80 aspect-video object-cover rounded-lg" alt="{{ .Title }}" />
+    {{ else }}
+    <div class="w-80 aspect-video bg-theme-light dark:bg-darkmode-theme-light rounded-lg"></div>
+    {{ end }}
+    <div class="flex flex-col p-2 lg:p-8">
+      <h3 class="w-full lg:w-60 text-2xl lg:text-2xl font-bold flex justify-between items-end">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h3>
-      </div>
+      </h3>
     </div>
-    <div
-      class="flex flex-col lg:flex-row px-2 py-2 lg:py-4 lg:px-8 items-start gap-1 lg:items-center justify-start text-sm text-[#81808C]"
-    >
-      <div class="flex items-center gap-1">
-        <span class="material-symbols-outlined text-[#D94645]">schedule </span
-        >{{ time.Format ":date_long" .PublishDate }}
-      </div>
+  </div>
+  <div
+    class="flex flex-col lg:flex-row px-2 py-2 lg:py-4 lg:px-8 items-start gap-1 lg:items-center justify-start text-sm text-[#81808C]">
+    <div class="flex items-center gap-1">
+      <span class="material-symbols-outlined text-[#D94645]">schedule </span>{{ time.Format ":date_long" .PublishDate }}
     </div>
+  </div>
 </div>
 {{ end }}

@@ -8,7 +8,7 @@ weight = 1
 
 [[main]]
 name = "Tentang"
-pageRef = "/about"
+pageRef = "/pages/about"
 weight = 2
 
 
@@ -31,7 +31,7 @@ weight = 6
 
 [[main]]
 name = "Kontak"
-pageRef = "/contact"
+pageRef = "/pages/contact"
 weight = 7
 
 
@@ -40,7 +40,7 @@ weight = 7
 # footer menu
 [[footer]]
 name = "About"
-pageRef = "/about"
+pageRef = "/pages/about"
 weight = 1
 
 [[footer]]
@@ -50,5 +50,5 @@ weight = 2
 
 [[footer]]
 name = "Privacy Policy"
-pageRef = "/privacy-policy"
+pageRef = "/pages/privacy-policy"
 weight = 3

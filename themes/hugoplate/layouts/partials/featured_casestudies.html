@@ -2,30 +2,31 @@
 <div class="flex flex-col">
   {{ $imgSrc := "" }}
   {{ if .Params.image }}
-    {{ $imagePath := .Params.image }}
-    {{ if reflect.IsSlice .Params.image }}
-      {{ $imagePath = index .Params.image 0 }}
-    {{ end }}
-    {{ $res := .Resources.GetMatch $imagePath }}
-    {{ if $res }}
-      {{ $imgSrc = $res.RelPermalink }}
-    {{ else }}
-      {{ $imgSrc = $imagePath | relURL }}
-    {{ end }}
+  {{ $imagePath := .Params.image }}
+  {{ if reflect.IsSlice .Params.image }}
+  {{ $imagePath = index .Params.image 0 }}
+  {{ end }}
+  {{ $res := .Resources.GetMatch $imagePath }}
+  {{ if $res }}
+  {{ $imgSrc = $res.RelPermalink }}
+  {{ else }}
+  {{ $imgSrc = $imagePath | relURL }}
+  {{ end }}
   {{ end }}
   {{ if $imgSrc }}
-  <img src="{{ $imgSrc }}" class="w-80 h-80 object-cover rounded-lg" alt="{{ .Title }}"/>
+  <img src="{{ $imgSrc }}" class="w-full md:w-80 h-60 object-cover rounded-lg" alt="{{ .Title }}" />
   {{ else }}
   <div class="w-80 h-80 bg-theme-light dark:bg-darkmode-theme-light rounded-lg"></div>
   {{ end }}
   <div class="flex flex-col p-8">
     <h3 class="w-60 text-2xl lg:text-2xl font-bold flex justify-between items-end">
-    {{ .Title }}
-      <a href="{{ .RelPermalink }}" class="material-symbols-outlined cursor-pointer hover:translate-x-2 transition-transform ease-in-out">
+      {{ .Title }}
+      <a href="{{ .RelPermalink }}"
+        class="material-symbols-outlined cursor-pointer hover:translate-x-2 transition-transform ease-in-out">
         arrow_forward
       </a>
     </h3>
-  
+
   </div>
 </div>
 {{ end }}
