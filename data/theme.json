@@ -31,9 +31,9 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Plus+Jakarta+Sans:wght@300;400;500;600;700",
+      "primary": "Nunito+Sans:wght@300;400;500;600;700;800",
       "primary_type": "sans-serif",
-      "secondary": "Outfit:wght@300;400;500;600;700",
+      "secondary": "Space+Grotesk:wght@300;400;500;600;700",
       "secondary_type": "sans-serif"
     },
     "font_size": {
